@@ -12,6 +12,6 @@ Simply copy and paste the code into your editor(or base.cpp). Make sure you incl
 - [x] [Graph + Dijkstra](graph/dijkstra.cpp)
 
 #### Algorithms
-- [x] [O( $ \sqrt{n} $ ) prime factorization](maths/sqrtn_prime.cpp)
+- [x] [O($\sqrt{n}$) prime factorization](maths/sqrtn_prime.cpp)
 - [x] [O($n\log(n)\log(\log(n))$) sieve of eratosthenes](maths/sieve.cpp) 
 - [ ] [O($\log(n)$) binarysearch ]
