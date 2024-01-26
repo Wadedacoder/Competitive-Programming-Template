@@ -1,1 +1,6 @@
-a.exe
+*.exe
+tmp.*
+*.txt   # ignore all .txt files
+tmp/*   # ignore all files in tmp/ directory
+makefile
+```
