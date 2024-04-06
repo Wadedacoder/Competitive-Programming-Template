@@ -1,3 +1,4 @@
+//My template https://github.com/Wadedacoder/Competitive-Programming-Template - only reference
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -9,16 +10,24 @@ const int MOD = 1000000007;
 const int inf = 1e18;
 const int maxn = 1000005;
 
-int gcd(int a, int b) {
-    return b == 0 ? a : gcd(b, a % b);
+int check(){
+    // TODO: Implement this function
 }
 
-int lcm(int a, int b){
-    return (a * b) / gcd(a, b);
+int binary_search(int l, int r, vector<int> &v){
+    while(l < r){
+        int mid = (l/2 + r/2);
+        if(check(mid)){
+            r = mid;
+        }else{
+            l = mid + 1;
+        }
+    }
+    return l;
 }
-
 void solve(){
-    
+
+
     return;
 }
 
@@ -32,7 +41,7 @@ signed main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     int t = 1;
-    cin >> t;
+    // cin >> t;
     for(int i = 1; i <= t; i++){
         // cout << "Case #" << i << ": ";
         solve();

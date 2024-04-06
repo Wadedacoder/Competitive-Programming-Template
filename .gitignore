@@ -3,4 +3,6 @@ tmp.*
 *.txt   # ignore all .txt files
 tmp/*   # ignore all files in tmp/ directory
 makefile
-```
+output.txt
+testin.txt
+testout.txt
