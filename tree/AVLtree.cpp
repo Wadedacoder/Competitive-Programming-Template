@@ -71,6 +71,20 @@ class AVLTree{
             return temp->value;
         }
 
+        bool check(T key) {
+            AVLNode *temp = root;
+            while (temp != NULL) {
+                if (temp->key == key) {
+                    return true;
+                } else if (key < temp->key) {
+                    temp = temp->left;
+                } else {
+                    temp = temp->right;
+                }
+            }
+            return false;
+        }
+
     private:
         void preorder(AVLNode *root) {
             if (root == NULL) {

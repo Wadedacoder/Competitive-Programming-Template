@@ -38,14 +38,14 @@ void Dijkstra(vector<Node>& nodes, int s){
     pq.push({0, s});
     while(!pq.empty()){
         int u = pq.top().second;
-        int t_init = pq.top().first;
+        int d_init = pq.top().first;
         pq.pop();
-        if(nodes[u].dist < t_init){ 
+        if(nodes[u].dist < d_init){ 
             continue;
         }
         for(int i = 0; i < nodes[u].edges.size(); i++){
             int v = nodes[u].edges[i][1];
-            int d2 = distance_calc(t_init, nodes[u].edges[i]);
+            int d2 = distance_calc(d_init, nodes[u].edges[i]);
             if(d2 < nodes[v].dist){
                 nodes[v].dist = d2;
                 nodes[v].parent = u;
