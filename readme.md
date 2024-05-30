@@ -10,7 +10,8 @@ Simply copy and paste the code into your editor(or base.cpp). Make sure you incl
 
 #### Data Structures
 - [x] [Graph](graph/base.cpp)
-- [ ] [AVL Tree](tree/AVLtree.cpp)
+- [x] [AVL Tree](tree/AVLtree.cpp)
+- [ ] 
 
 #### Algorithms
 - [x] [O($\sqrt{n}$) prime factorization](maths/sqrtn_prime.cpp)

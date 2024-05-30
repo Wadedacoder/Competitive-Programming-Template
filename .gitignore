@@ -6,3 +6,4 @@ makefile
 output.txt
 testin.txt
 testout.txt
+notes/* # ignore all files in notes/ directory
