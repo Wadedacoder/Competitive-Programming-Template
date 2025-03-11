@@ -29,3 +29,7 @@ int power(int a, int b){
 int mod(int a, int b){
     return ((a % b) + b) % b;
 }
+
+int add(int a, int b, int M = 1e9 + 7){
+    return mod(mod(a, M) + mod(b, M), M);
+}

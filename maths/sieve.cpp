@@ -2,6 +2,10 @@
 using namespace std;
 
 
+int inv(int a) {
+  return a <= 1 ? a : m - (long long)(m/a) * inv(m % a) % m;
+}
+
 //sieve of eratosthenes
 vector<int> primes;
 vector<bool> is_prime;
